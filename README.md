@@ -17,3 +17,41 @@
 - PyAutoGUI
 - pynput
 - numpy
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/virtual-mouse.git
+   cd virtual-mouse
+   ```
+
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+1. Run the application:
+   ```bash
+   python main.py
+   ```
+   
+2. Allow the application to access your webcam. Ensure you are in front of the camera and that your hand gestures are visible.
+
+3. Use the following gestures to control the mouse:
+   - **Move cursor**: Position your index finger in the camera view.
+   - **Left Click**: Pinch your thumb and index finger together.
+   - **Right Click**: Extend your thumb and pinch your index finger.
+   - **Double Click**: Quickly pinch your thumb and index finger twice.
+   - **Screenshot**: Pinch your thumb and index finger and hold for a moment.
+
+## Acknowledgements
+- [MediaPipe](https://google.github.io/mediapipe/) for hand tracking capabilities.
+- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) for simulating mouse actions.
+- OpenCV for image processing.
