@@ -36,12 +36,16 @@
    pip install -r requirements.txt
    ```
 
+## Files
+- `virtualMouse.ipynb`: Jupyter notebook containing the main application logic and gestures for controlling the mouse.
+- `util.py`: Utility functions used within the application for gesture recognition and processing.
+
 ## Usage
 1. Run the application:
    ```bash
-   python main.py
+   python virtualMouse.ipynb
    ```
-   
+
 2. Allow the application to access your webcam. Ensure you are in front of the camera and that your hand gestures are visible.
 
 3. Use the following gestures to control the mouse:
