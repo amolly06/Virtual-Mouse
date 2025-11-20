@@ -15,7 +15,6 @@
 - OpenCV
 - MediaPipe
 - PyAutoGUI
-- pynput
 - numpy
 
 ## Installation
@@ -51,11 +50,6 @@
 3. Use the following gestures to control the mouse:
    - **Move cursor**: Position your index finger in the camera view.
    - **Left Click**: Pinch your thumb and index finger together.
-   - **Right Click**: Extend your thumb and pinch your index finger.
+   - **Right Click**: Pinch your thumb and pinch your middle finger.
    - **Double Click**: Quickly pinch your thumb and index finger twice.
-   - **Screenshot**: Pinch your thumb and index finger and hold for a moment.
-
-## Acknowledgements
-- [MediaPipe](https://google.github.io/mediapipe/) for hand tracking capabilities.
-- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) for simulating mouse actions.
-- OpenCV for image processing.
+   - **Screenshot**: Pinch your thumb, index finger and middle finger and hold for a moment.
